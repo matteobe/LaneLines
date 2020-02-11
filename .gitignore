@@ -1,0 +1,14 @@
+# File specifies which files are to be ignored by the git client
+
+# ####### Python ################
+*.pyc
+
+# ####### Python Virtual Env ####
+virtualenv/
+!virtualenv/requirements.txt
+
+# ####### PyDev projects ########
+*.project
+*.pydevproject
+*.settings
+*.idea
