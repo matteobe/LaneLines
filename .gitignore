@@ -4,11 +4,13 @@
 *.pyc
 
 # ####### Python Virtual Env ####
-virtualenv/
-!virtualenv/requirements.txt
+venv/
 
 # ####### PyDev projects ########
 *.project
 *.pydevproject
 *.settings
 *.idea
+
+# ##### Jupyter notebooks #######
+.ipynb_checkpoints
